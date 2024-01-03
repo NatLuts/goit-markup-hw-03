@@ -1,0 +1,129 @@
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: #FFF;
+    color: #434455;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.logo-text{
+    color: var(--NAVY-BLUE, #2E2F42)
+}
+.button{
+background: var(--IRIS, #4D5AE5);
+color: #FFF;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+}
+
+.button:hover, .button:focus { 
+ background-color: #404BBF;
+}
+
+
+.contact-menu-link{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+font-style: normal;
+color: #434455;
+}
+.contact-menu-link:hover{
+color: #404bbf;
+}
+
+.contact-menu-link:focus{
+color: #404bbf;
+  }
+
+  .contacts{
+font-style: normal;
+  }
+
+.menu-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+color: #2E2F42;
+}
+.menu-link:hover{
+color: #404bbf ;
+}
+.menu-link:focus{
+color: #404bbf ;
+    }
+.menu-link:active {
+    color:#404bbf;
+}
+.main-title{
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+letter-spacing: 1.12px;
+text-align: center;
+color: #FFF;
+}
+.section-first{
+     background: var(--NAVY-BLUE, #2E2F42);  
+}
+.title{
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+}
+.title-text{
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+color: #434455;
+background: var(--WHITE, #FFF)
+}
+
+.section-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
+.section-third{
+    background-color: var(--CLOUD, #F4F4FD);
+}
+
+.team-list{
+    background-color: #FFF;
+}
+.footer-logo-text{
+   color: #F4F4FD; 
+}
+.footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.footer-text{
+color: var(--CLOUD, #f4f4fd);
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+}
