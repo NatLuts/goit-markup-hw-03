@@ -60,7 +60,6 @@ align-items: center;
 .menu {
 display: flex;
 gap: 40px;
-margin-right: 122.5px;
 }
 
 .logo {
@@ -97,10 +96,11 @@ color: #404bbf;
     
 .contacts {
 font-style: normal;
-margin-left: 200px;
+margin-left: auto;
 }
 
 .menu-link {
+display: block;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
@@ -186,7 +186,6 @@ font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.4px;
 color: #2E2F42;
-width: calc((100% - 72px)/4);
 margin-bottom: 8px;
 }
 
@@ -232,8 +231,6 @@ width: calc((100% - 72px)/4);
 
 .section-third {
 background-color: var(--CLOUD, #F4F4FD);
-border: 1px solid #000;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .team-title {
@@ -248,18 +245,13 @@ margin-bottom: 8px;
     
 .team-list {
 background-color: #FFF;
-display: inline-flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 border-radius: 0px 0px 4px 4px; 
 }
 
 .team-member {
 padding: 32px 0;
-
-
 }
+
 .team {
 display: flex;
 flex-wrap: wrap;
@@ -298,15 +290,9 @@ row-gap: 48px;
 
     .addit-box {
      padding: 32px 16px;
-     max-width: 360px;
      border: 1px solid #e7e9fc;
      border-top: none;
-     margin-bottom: 8px
     }
-
-    .project-title {
-    width: 360px;
- }
 
 /*Footer*/
 
@@ -326,9 +312,8 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 font-weight: 400;
 width: 264px;
-padding-top: 17.5px;
 }
 
 .footer-logo {
-margin-bottom: 16px;
+margin-bottom: 16px; 
 }
