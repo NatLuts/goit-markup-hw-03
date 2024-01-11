@@ -86,10 +86,7 @@ font-style: normal;
 color: #434455;
 }
     
-.contact-menu-link:hover {
-color: #404bbf;
-}
-    
+.contact-menu-link:hover,
 .contact-menu-link:focus {
 color: #404bbf;
 }
@@ -109,18 +106,12 @@ color: #2E2F42;
 padding: 24px 0;
 }
     
-.menu-link:hover {
-color: #404bbf ;
-}
-    
-.menu-link:focus {
-color: #404bbf ;
-}
-    
+.menu-link:hover,
+.menu-link:focus,
 .menu-link:active {
-color:#404bbf;
+color: #404bbf ;
 }
-
+    
 .contact-menu {
 display: flex;
 gap: 40px;
@@ -132,7 +123,6 @@ gap: 40px;
 .section-first {
 background: var(--NAVY-BLUE, #2E2F42);  
 padding: 188px 0;
-
 }
 
 .main-title {
